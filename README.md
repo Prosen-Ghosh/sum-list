@@ -22,11 +22,11 @@ Add up all of the numbers in an array of numbers. Also works when non-numbers ar
 
 #### For Development
 ```js
-<script src=""></script>
+<script src="https://rawgit.com/Prosen-Ghosh/sum-list/master/sum.js"></script>
 ```
 ### For Production
 ```js
-<script src=""></script>
+<script src="https://cdn.rawgit.com/Prosen-Ghosh/sum-list/ed0e191c/sum.js"></script>
 ```
 
 ## Usage
@@ -34,6 +34,11 @@ Add up all of the numbers in an array of numbers. Also works when non-numbers ar
 ```js
 
 var sum = require('sum-list')
+
+sum([1,2,3,4]);
+//=> 10
+sum([1,2,3,4,10]);
+//=> 20
 
 sum([1,2,3,"as",{},[],9]);
 //=> 15
@@ -53,4 +58,4 @@ Prosen Ghosh <prosenghosh25@gmail.com>
 
 ## License
 
- - **MIT** : http://opensource.org/licenses/MIT
+ - **MIT**

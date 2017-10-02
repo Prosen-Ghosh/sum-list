@@ -1,6 +1,6 @@
 {
   "name": "sum-list",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Add up all of the numbers in an array of numbers. Also works when non-numbers are present as well.",
   "main": "sum.js",
   "scripts": {
