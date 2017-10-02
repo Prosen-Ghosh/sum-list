@@ -1,0 +1,31 @@
+{
+  "name": "sum-list",
+  "version": "0.0.9",
+  "description": "Add up all of the numbers in an array of numbers. Also works when non-numbers are present as well.",
+  "main": "sum.js",
+  "scripts": {
+    "test": "mocha",
+    "readme": "node ./node_modules/.bin/node-readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prosen-Ghosh/sum-list.git"
+  },
+  "keywords": [
+    "sum",
+    "array",
+    "element",
+    "number"
+  ],
+  "author": "Prosen Ghosh <prosenghosh25@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prosen-Ghosh/sum-list/issues"
+  },
+  "homepage": "https://github.com/Prosen-Ghosh/sum-list#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "node-readme": "^0.1.9"
+  }
+}
